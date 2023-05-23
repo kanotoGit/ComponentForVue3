@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { ref, nextTick, DefineComponent, PropType, provide } from 'vue'
+import { ref, nextTick, type DefineComponent, type PropType, provide } from 'vue'
 
 const props = defineProps({
   /** 表示するページ */

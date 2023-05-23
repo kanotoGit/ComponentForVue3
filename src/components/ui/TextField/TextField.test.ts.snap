@@ -1,0 +1,13 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`TextField > toUpperCase 1`] = `"FOOBAR2"`;
+
+exports[`TextField > 入力値が数値の場合、number型がemitされること 1`] = `
+DOMWrapper {
+  "isDisabled": [Function],
+  "wrapperElement": <input
+    data-v-66836ec0=""
+    type="text"
+  />,
+}
+`;
