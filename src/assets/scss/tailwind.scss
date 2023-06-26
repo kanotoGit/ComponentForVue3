@@ -3,3 +3,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/** スタイルコンポーネント定義 */
+@layer components {
+  .tw-button {
+    background: #aaa;
+  }
+}
+
+/** ユーティリティ定義 */
+@layer utilities {
+  .tw-text-center {
+    text-align: center !important;
+  }
+}

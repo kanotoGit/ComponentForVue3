@@ -10,6 +10,7 @@ const resetPage = inject<Function>('resetPage')
     home
     <input />
     <button @click="resetPage?.()">再マウント</button>
+    <button class="button">saaaa</button>
   </section>
 </template>
 
